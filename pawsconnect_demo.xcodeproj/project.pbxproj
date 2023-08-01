@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DEA93702A6A297E008F5BDC /* pawsconnect_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA936F2A6A297E008F5BDC /* pawsconnect_demoApp.swift */; };
+		4DEA93722A6A297E008F5BDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA93712A6A297E008F5BDC /* ContentView.swift */; };
+		4DEA93742A6A2981008F5BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA93732A6A2981008F5BDC /* Assets.xcassets */; };
+		4DEA93772A6A2981008F5BDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEA93762A6A2981008F5BDC /* Preview Assets.xcassets */; };
+		4DEA93792A6A2981008F5BDC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA93782A6A2981008F5BDC /* Persistence.swift */; };
+		4DEA937C2A6A2981008F5BDC /* pawsconnect_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA937A2A6A2981008F5BDC /* pawsconnect_demo.xcdatamodeld */; };
+		4DEA93862A6A2982008F5BDC /* pawsconnect_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA93852A6A2982008F5BDC /* pawsconnect_demoTests.swift */; };
+		4DEA93902A6A2982008F5BDC /* pawsconnect_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA938F2A6A2982008F5BDC /* pawsconnect_demoUITests.swift */; };
+		4DEA93922A6A2982008F5BDC /* pawsconnect_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA93912A6A2982008F5BDC /* pawsconnect_demoUITestsLaunchTests.swift */; };
+		4DEA93A02A6A2AB6008F5BDC /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA939F2A6A2AB6008F5BDC /* UserProfile.swift */; };
+		4DEA93A32A6A2BE2008F5BDC /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA93A22A6A2BE2008F5BDC /* WelcomePage.swift */; };
+		4DEA93A62A6A2C52008F5BDC /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA93A52A6A2C52008F5BDC /* Login.swift */; };
+		4DEA93A92A6A2E6F008F5BDC /* BottomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA93A82A6A2E6F008F5BDC /* BottomTab.swift */; };
+		4DEA93AB2A6A334E008F5BDC /* UserProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA93AA2A6A334D008F5BDC /* UserProfileManager.swift */; };
+		4DEA93AD2A6A33C8008F5BDC /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA93AC2A6A33C8008F5BDC /* SignUp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DEA93822A6A2982008F5BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DEA93642A6A297E008F5BDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DEA936B2A6A297E008F5BDC;
+			remoteInfo = pawsconnect_demo;
+		};
+		4DEA938C2A6A2982008F5BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DEA93642A6A297E008F5BDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DEA936B2A6A297E008F5BDC;
+			remoteInfo = pawsconnect_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DEA936C2A6A297E008F5BDC /* pawsconnect_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pawsconnect_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEA936F2A6A297E008F5BDC /* pawsconnect_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pawsconnect_demoApp.swift; sourceTree = "<group>"; };
+		4DEA93712A6A297E008F5BDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DEA93732A6A2981008F5BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DEA93762A6A2981008F5BDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DEA93782A6A2981008F5BDC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4DEA937B2A6A2981008F5BDC /* pawsconnect_demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pawsconnect_demo.xcdatamodel; sourceTree = "<group>"; };
+		4DEA93812A6A2982008F5BDC /* pawsconnect_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pawsconnect_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEA93852A6A2982008F5BDC /* pawsconnect_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pawsconnect_demoTests.swift; sourceTree = "<group>"; };
+		4DEA938B2A6A2982008F5BDC /* pawsconnect_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pawsconnect_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEA938F2A6A2982008F5BDC /* pawsconnect_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pawsconnect_demoUITests.swift; sourceTree = "<group>"; };
+		4DEA93912A6A2982008F5BDC /* pawsconnect_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pawsconnect_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DEA939F2A6A2AB6008F5BDC /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserProfile.swift; path = pawsconnect_demo/Models/UserProfile.swift; sourceTree = SOURCE_ROOT; };
+		4DEA93A22A6A2BE2008F5BDC /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		4DEA93A52A6A2C52008F5BDC /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Login.swift; path = pawsconnect_demo/Views/Login/Login.swift; sourceTree = SOURCE_ROOT; };
+		4DEA93A82A6A2E6F008F5BDC /* BottomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTab.swift; sourceTree = "<group>"; };
+		4DEA93AA2A6A334D008F5BDC /* UserProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileManager.swift; sourceTree = "<group>"; };
+		4DEA93AC2A6A33C8008F5BDC /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DEA93692A6A297E008F5BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DEA937E2A6A2982008F5BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DEA93882A6A2982008F5BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DEA93632A6A297E008F5BDC = {
+			isa = PBXGroup;
+			children = (
+				4DEA936E2A6A297E008F5BDC /* pawsconnect_demo */,
+				4DEA93842A6A2982008F5BDC /* pawsconnect_demoTests */,
+				4DEA938E2A6A2982008F5BDC /* pawsconnect_demoUITests */,
+				4DEA936D2A6A297E008F5BDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DEA936D2A6A297E008F5BDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA936C2A6A297E008F5BDC /* pawsconnect_demo.app */,
+				4DEA93812A6A2982008F5BDC /* pawsconnect_demoTests.xctest */,
+				4DEA938B2A6A2982008F5BDC /* pawsconnect_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DEA936E2A6A297E008F5BDC /* pawsconnect_demo */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA936F2A6A297E008F5BDC /* pawsconnect_demoApp.swift */,
+				4DEA93712A6A297E008F5BDC /* ContentView.swift */,
+				4DEA93A12A6A2BAC008F5BDC /* Views */,
+				4DEA939E2A6A2A4E008F5BDC /* Models */,
+				4DEA93732A6A2981008F5BDC /* Assets.xcassets */,
+				4DEA93782A6A2981008F5BDC /* Persistence.swift */,
+				4DEA937A2A6A2981008F5BDC /* pawsconnect_demo.xcdatamodeld */,
+				4DEA93752A6A2981008F5BDC /* Preview Content */,
+			);
+			path = pawsconnect_demo;
+			sourceTree = "<group>";
+		};
+		4DEA93752A6A2981008F5BDC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA93762A6A2981008F5BDC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DEA93842A6A2982008F5BDC /* pawsconnect_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA93852A6A2982008F5BDC /* pawsconnect_demoTests.swift */,
+			);
+			path = pawsconnect_demoTests;
+			sourceTree = "<group>";
+		};
+		4DEA938E2A6A2982008F5BDC /* pawsconnect_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA938F2A6A2982008F5BDC /* pawsconnect_demoUITests.swift */,
+				4DEA93912A6A2982008F5BDC /* pawsconnect_demoUITestsLaunchTests.swift */,
+			);
+			path = pawsconnect_demoUITests;
+			sourceTree = "<group>";
+		};
+		4DEA939E2A6A2A4E008F5BDC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA939F2A6A2AB6008F5BDC /* UserProfile.swift */,
+				4DEA93AA2A6A334D008F5BDC /* UserProfileManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DEA93A12A6A2BAC008F5BDC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA93A22A6A2BE2008F5BDC /* WelcomePage.swift */,
+				4DEA93A72A6A2E57008F5BDC /* Main */,
+				4DEA93A42A6A2C3C008F5BDC /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DEA93A42A6A2C3C008F5BDC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA93A52A6A2C52008F5BDC /* Login.swift */,
+				4DEA93AC2A6A33C8008F5BDC /* SignUp.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4DEA93A72A6A2E57008F5BDC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA93A82A6A2E6F008F5BDC /* BottomTab.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DEA936B2A6A297E008F5BDC /* pawsconnect_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DEA93952A6A2982008F5BDC /* Build configuration list for PBXNativeTarget "pawsconnect_demo" */;
+			buildPhases = (
+				4DEA93682A6A297E008F5BDC /* Sources */,
+				4DEA93692A6A297E008F5BDC /* Frameworks */,
+				4DEA936A2A6A297E008F5BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pawsconnect_demo;
+			productName = pawsconnect_demo;
+			productReference = 4DEA936C2A6A297E008F5BDC /* pawsconnect_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DEA93802A6A2982008F5BDC /* pawsconnect_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DEA93982A6A2982008F5BDC /* Build configuration list for PBXNativeTarget "pawsconnect_demoTests" */;
+			buildPhases = (
+				4DEA937D2A6A2982008F5BDC /* Sources */,
+				4DEA937E2A6A2982008F5BDC /* Frameworks */,
+				4DEA937F2A6A2982008F5BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DEA93832A6A2982008F5BDC /* PBXTargetDependency */,
+			);
+			name = pawsconnect_demoTests;
+			productName = pawsconnect_demoTests;
+			productReference = 4DEA93812A6A2982008F5BDC /* pawsconnect_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DEA938A2A6A2982008F5BDC /* pawsconnect_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DEA939B2A6A2982008F5BDC /* Build configuration list for PBXNativeTarget "pawsconnect_demoUITests" */;
+			buildPhases = (
+				4DEA93872A6A2982008F5BDC /* Sources */,
+				4DEA93882A6A2982008F5BDC /* Frameworks */,
+				4DEA93892A6A2982008F5BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DEA938D2A6A2982008F5BDC /* PBXTargetDependency */,
+			);
+			name = pawsconnect_demoUITests;
+			productName = pawsconnect_demoUITests;
+			productReference = 4DEA938B2A6A2982008F5BDC /* pawsconnect_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DEA93642A6A297E008F5BDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4DEA936B2A6A297E008F5BDC = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					4DEA93802A6A2982008F5BDC = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 4DEA936B2A6A297E008F5BDC;
+					};
+					4DEA938A2A6A2982008F5BDC = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 4DEA936B2A6A297E008F5BDC;
+					};
+				};
+			};
+			buildConfigurationList = 4DEA93672A6A297E008F5BDC /* Build configuration list for PBXProject "pawsconnect_demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DEA93632A6A297E008F5BDC;
+			productRefGroup = 4DEA936D2A6A297E008F5BDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DEA936B2A6A297E008F5BDC /* pawsconnect_demo */,
+				4DEA93802A6A2982008F5BDC /* pawsconnect_demoTests */,
+				4DEA938A2A6A2982008F5BDC /* pawsconnect_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DEA936A2A6A297E008F5BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEA93772A6A2981008F5BDC /* Preview Assets.xcassets in Resources */,
+				4DEA93742A6A2981008F5BDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DEA937F2A6A2982008F5BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DEA93892A6A2982008F5BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DEA93682A6A297E008F5BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEA93A62A6A2C52008F5BDC /* Login.swift in Sources */,
+				4DEA93792A6A2981008F5BDC /* Persistence.swift in Sources */,
+				4DEA93722A6A297E008F5BDC /* ContentView.swift in Sources */,
+				4DEA93A02A6A2AB6008F5BDC /* UserProfile.swift in Sources */,
+				4DEA93AB2A6A334E008F5BDC /* UserProfileManager.swift in Sources */,
+				4DEA93A32A6A2BE2008F5BDC /* WelcomePage.swift in Sources */,
+				4DEA937C2A6A2981008F5BDC /* pawsconnect_demo.xcdatamodeld in Sources */,
+				4DEA93A92A6A2E6F008F5BDC /* BottomTab.swift in Sources */,
+				4DEA93702A6A297E008F5BDC /* pawsconnect_demoApp.swift in Sources */,
+				4DEA93AD2A6A33C8008F5BDC /* SignUp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DEA937D2A6A2982008F5BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEA93862A6A2982008F5BDC /* pawsconnect_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DEA93872A6A2982008F5BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEA93902A6A2982008F5BDC /* pawsconnect_demoUITests.swift in Sources */,
+				4DEA93922A6A2982008F5BDC /* pawsconnect_demoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DEA93832A6A2982008F5BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DEA936B2A6A297E008F5BDC /* pawsconnect_demo */;
+			targetProxy = 4DEA93822A6A2982008F5BDC /* PBXContainerItemProxy */;
+		};
+		4DEA938D2A6A2982008F5BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DEA936B2A6A297E008F5BDC /* pawsconnect_demo */;
+			targetProxy = 4DEA938C2A6A2982008F5BDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DEA93932A6A2982008F5BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DEA93942A6A2982008F5BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DEA93962A6A2982008F5BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pawsconnect_demo/Preview Content\"";
+				DEVELOPMENT_TEAM = W86P6L2ZZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Max.pawsconnect-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DEA93972A6A2982008F5BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pawsconnect_demo/Preview Content\"";
+				DEVELOPMENT_TEAM = W86P6L2ZZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Max.pawsconnect-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DEA93992A6A2982008F5BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W86P6L2ZZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Max.pawsconnect-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pawsconnect_demo.app/pawsconnect_demo";
+			};
+			name = Debug;
+		};
+		4DEA939A2A6A2982008F5BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W86P6L2ZZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Max.pawsconnect-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pawsconnect_demo.app/pawsconnect_demo";
+			};
+			name = Release;
+		};
+		4DEA939C2A6A2982008F5BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W86P6L2ZZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Max.pawsconnect-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pawsconnect_demo;
+			};
+			name = Debug;
+		};
+		4DEA939D2A6A2982008F5BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W86P6L2ZZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Max.pawsconnect-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pawsconnect_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DEA93672A6A297E008F5BDC /* Build configuration list for PBXProject "pawsconnect_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEA93932A6A2982008F5BDC /* Debug */,
+				4DEA93942A6A2982008F5BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DEA93952A6A2982008F5BDC /* Build configuration list for PBXNativeTarget "pawsconnect_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEA93962A6A2982008F5BDC /* Debug */,
+				4DEA93972A6A2982008F5BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DEA93982A6A2982008F5BDC /* Build configuration list for PBXNativeTarget "pawsconnect_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEA93992A6A2982008F5BDC /* Debug */,
+				4DEA939A2A6A2982008F5BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DEA939B2A6A2982008F5BDC /* Build configuration list for PBXNativeTarget "pawsconnect_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEA939C2A6A2982008F5BDC /* Debug */,
+				4DEA939D2A6A2982008F5BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DEA937A2A6A2981008F5BDC /* pawsconnect_demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DEA937B2A6A2981008F5BDC /* pawsconnect_demo.xcdatamodel */,
+			);
+			currentVersion = 4DEA937B2A6A2981008F5BDC /* pawsconnect_demo.xcdatamodel */;
+			path = pawsconnect_demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4DEA93642A6A297E008F5BDC /* Project object */;
+}
